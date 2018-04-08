@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Pacifico');
+@import "normalize.css";
+@import "layout.css";
+@import "./componants/_header.scss";
+@import "./componants/_first-section.scss";
+@import "./componants/_second-section.scss";
+@import "./componants/_third-section.scss";
+@import "./componants/_footer.scss";
+
+*, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: none;
+}
+
+body {
+	background-color: #fff;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Open Sans', sans-serif;
+}
+.ba-container {
+	max-width: 1000px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.section-wrapper{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
