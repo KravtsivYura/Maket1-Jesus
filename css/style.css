@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Pacifico");
-@import url(normalize.css);
-@import url(layout.css);
 header {
   padding-bottom: 50px; }
   header hr {
